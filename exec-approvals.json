@@ -18,8 +18,8 @@
         {
           "id": "f42eb6c9-e931-4af9-bc02-6fcb60fc0d8c",
           "pattern": "/usr/bin/ls",
-          "lastUsedAt": 1772667022891,
-          "lastUsedCommand": "ls /root/.openclaw/workspace/.learnings/",
+          "lastUsedAt": 1772672470516,
+          "lastUsedCommand": "ls /root/.openclaw/workspace/memory/",
           "lastResolvedPath": "/usr/bin/ls"
         },
         {
@@ -112,9 +112,9 @@
         {
           "id": "a1a757fa-aba6-41cd-a790-40b159de68be",
           "pattern": "/usr/bin/head",
-          "lastUsedAt": 1772666628844,
-          "lastUsedCommand": "tailscale status --json | head -5",
-          "lastResolvedPath": "/usr/bin/tailscale"
+          "lastUsedAt": 1772672465576,
+          "lastUsedCommand": "ls -lt /root/.openclaw/workspace/.learnings/ | head -10",
+          "lastResolvedPath": "/usr/bin/ls"
         },
         {
           "id": "4a6c3f0a-b1ee-4f37-8338-4ac1ef8edf5b",
