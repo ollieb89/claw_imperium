@@ -1,0 +1,27 @@
+{
+  "id": "fcc5c321-0f73-43bb-b3f9-bb7a7493620d",
+  "enqueuedAt": 1772673349011,
+  "channel": "telegram",
+  "to": "telegram:1734128684",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "Based on my docs skill, I need to find how to register agents in openclaw.json. Let me check the snippets:",
+      "replyToTag": false,
+      "replyToCurrent": false,
+      "audioAsVoice": false
+    }
+  ],
+  "threadId": null,
+  "replyToId": null,
+  "mirror": {
+    "sessionKey": "agent:main:telegram:direct:1734128684",
+    "agentId": "main",
+    "text": "Based on my docs skill, I need to find how to register agents in openclaw.json. Let me check the snippets:",
+    "mediaUrls": [],
+    "isGroup": false
+  },
+  "retryCount": 1,
+  "lastAttemptAt": 1772673349335,
+  "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
+}

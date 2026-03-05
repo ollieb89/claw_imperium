@@ -18,7 +18,7 @@
         {
           "id": "f42eb6c9-e931-4af9-bc02-6fcb60fc0d8c",
           "pattern": "/usr/bin/ls",
-          "lastUsedAt": 1772672470516,
+          "lastUsedAt": 1772675449155,
           "lastUsedCommand": "ls /root/.openclaw/workspace/memory/",
           "lastResolvedPath": "/usr/bin/ls"
         },
@@ -32,8 +32,8 @@
         {
           "id": "f971c30a-f20f-42b3-88d5-8a3130326abf",
           "pattern": "/usr/bin/cat",
-          "lastUsedAt": 1772666645888,
-          "lastUsedCommand": "cat /root/.openclaw/workspace/.learnings/*.md",
+          "lastUsedAt": 1772673326221,
+          "lastUsedCommand": "cat /root/.openclaw/openclaw.json | jq '.agents'",
           "lastResolvedPath": "/usr/bin/cat"
         },
         {
@@ -112,9 +112,9 @@
         {
           "id": "a1a757fa-aba6-41cd-a790-40b159de68be",
           "pattern": "/usr/bin/head",
-          "lastUsedAt": 1772672465576,
-          "lastUsedCommand": "ls -lt /root/.openclaw/workspace/.learnings/ | head -10",
-          "lastResolvedPath": "/usr/bin/ls"
+          "lastUsedAt": 1772675458815,
+          "lastUsedCommand": "tailscale status | head -10",
+          "lastResolvedPath": "/usr/bin/tailscale"
         },
         {
           "id": "4a6c3f0a-b1ee-4f37-8338-4ac1ef8edf5b",
@@ -138,7 +138,7 @@
         {
           "id": "09636c7c-ed13-417e-896c-0b184a543282",
           "pattern": "/usr/bin/date",
-          "lastUsedAt": 1772667045325,
+          "lastUsedAt": 1772673502961,
           "lastUsedCommand": "date",
           "lastResolvedPath": "/usr/bin/date"
         },
@@ -185,8 +185,8 @@
         {
           "id": "21bdac03-6f5f-405e-a71f-fe55ed896564",
           "pattern": "/usr/bin/tailscale",
-          "lastUsedAt": 1772670642143,
-          "lastUsedCommand": "tailscale ip -4",
+          "lastUsedAt": 1772675458815,
+          "lastUsedCommand": "tailscale status | head -10",
           "lastResolvedPath": "/usr/bin/tailscale"
         },
         {

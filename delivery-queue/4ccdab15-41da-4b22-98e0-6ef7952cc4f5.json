@@ -1,0 +1,23 @@
+{
+  "id": "4ccdab15-41da-4b22-98e0-6ef7952cc4f5",
+  "enqueuedAt": 1772673079217,
+  "channel": "telegram",
+  "to": "telegram:1734128684",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "✅ New session started · model: kilocode/minimax/minimax-m2.5:free"
+    }
+  ],
+  "threadId": null,
+  "replyToId": null,
+  "mirror": {
+    "sessionKey": "agent:main:telegram:direct:1734128684",
+    "agentId": "main",
+    "text": "✅ New session started · model: kilocode/minimax/minimax-m2.5:free",
+    "mediaUrls": []
+  },
+  "retryCount": 1,
+  "lastAttemptAt": 1772673079524,
+  "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
+}

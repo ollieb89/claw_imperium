@@ -1,0 +1,27 @@
+{
+  "id": "14ed28ce-7191-45ff-9ef9-f8e2432ea5f7",
+  "enqueuedAt": 1772673092850,
+  "channel": "telegram",
+  "to": "telegram:1734128684",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "Hey Ollie. 🦔\n\nWhat's the priority?",
+      "replyToTag": false,
+      "replyToCurrent": false,
+      "audioAsVoice": false
+    }
+  ],
+  "threadId": null,
+  "replyToId": null,
+  "mirror": {
+    "sessionKey": "agent:main:telegram:direct:1734128684",
+    "agentId": "main",
+    "text": "Hey Ollie. 🦔\n\nWhat's the priority?",
+    "mediaUrls": [],
+    "isGroup": false
+  },
+  "retryCount": 1,
+  "lastAttemptAt": 1772673093170,
+  "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
+}
