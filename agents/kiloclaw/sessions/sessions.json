@@ -1,7 +1,7 @@
 {
   "agent:kiloclaw:main": {
     "sessionId": "962328a1-8dca-4092-aa29-79480e639da4",
-    "updatedAt": 1772702378293,
+    "updatedAt": 1772726638310,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -183,7 +183,7 @@
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1772702360033,
+      "generatedAt": 1772726632272,
       "sessionId": "962328a1-8dca-4092-aa29-79480e639da4",
       "sessionKey": "agent:kiloclaw:main",
       "provider": "kilocode",
@@ -196,9 +196,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 25537,
+        "chars": 25241,
         "projectContextChars": 10395,
-        "nonProjectContextChars": 15142
+        "nonProjectContextChars": 14846
       },
       "injectedWorkspaceFiles": [
         {
@@ -450,9 +450,9 @@
         ]
       }
     },
-    "inputTokens": 13456,
-    "outputTokens": 261,
-    "cacheRead": 283,
+    "inputTokens": 13244,
+    "outputTokens": 167,
+    "cacheRead": 1150,
     "cacheWrite": 0,
     "totalTokensFresh": true,
     "deliveryContext": {
@@ -461,7 +461,7 @@
     },
     "lastTo": "heartbeat",
     "lastChannel": "webchat",
-    "totalTokens": 13739
+    "totalTokens": 14394
   },
   "agent:kiloclaw:telegram:slash:1734128684": {
     "origin": {
@@ -473,12 +473,12 @@
       "to": "telegram:1734128684",
       "accountId": "default"
     },
-    "sessionId": "abd8943c-fdef-4c50-b276-05247a69f631",
-    "updatedAt": 1772683312226
+    "sessionId": "4e353c7d-a085-4aa8-bc1d-e8727ca221bc",
+    "updatedAt": 1772709558431
   },
   "agent:kiloclaw:telegram:direct:1734128684": {
     "sessionId": "c2fc37c6-cb81-4877-9261-02280ab26863",
-    "updatedAt": 1772684644033,
+    "updatedAt": 1772709558441,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -945,7 +945,7 @@
   },
   "agent:kiloclaw:telegram:group:-1003812821838:topic:1425": {
     "sessionId": "b764cdc7-2775-411a-8672-7ffd901d8958",
-    "updatedAt": 1772698255630,
+    "updatedAt": 1772703826578,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -1188,7 +1188,7 @@
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1772698152692,
+      "generatedAt": 1772703395775,
       "sessionId": "b764cdc7-2775-411a-8672-7ffd901d8958",
       "sessionKey": "agent:kiloclaw:telegram:group:-1003812821838:topic:1425",
       "provider": "kilocode",
@@ -1201,9 +1201,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 38977,
+        "chars": 30685,
         "projectContextChars": 15523,
-        "nonProjectContextChars": 23454
+        "nonProjectContextChars": 15162
       },
       "injectedWorkspaceFiles": [
         {
@@ -1459,11 +1459,12 @@
         ]
       }
     },
-    "inputTokens": 43496,
-    "outputTokens": 171,
-    "cacheRead": 0,
+    "inputTokens": 318345,
+    "outputTokens": 5649,
+    "cacheRead": 59512,
     "cacheWrite": 0,
-    "totalTokensFresh": false
+    "totalTokensFresh": true,
+    "totalTokens": 59827
   },
   "agent:kiloclaw:telegram:group:-1003812821838:topic:1431": {
     "sessionId": "abec496e-5029-4e50-af27-97c6bdc14896",
@@ -2017,15 +2018,11 @@
     "sessionFile": "/root/.openclaw/agents/kiloclaw/sessions/7390e73a-b423-49cc-99c1-95b2028e552e.jsonl"
   },
   "agent:kiloclaw:telegram:group:-1003812821838:topic:1": {
-    "sessionId": "7e9dfb23-6d9a-4f61-ab3c-78175583da0b",
-    "updatedAt": 1772698153582,
+    "sessionId": "5bea5721-547d-4d18-9924-738b7316ea30",
+    "updatedAt": 1772713114085,
     "systemSent": true,
     "abortedLastRun": false,
-    "displayName": "telegram:g-kiloclaw",
     "chatType": "group",
-    "channel": "telegram",
-    "groupId": "-1003812821838:topic:1",
-    "subject": "KiloClaw",
     "deliveryContext": {
       "channel": "telegram",
       "to": "telegram:-1003812821838",
@@ -2037,16 +2034,16 @@
     "lastAccountId": "default",
     "lastThreadId": 1,
     "origin": {
-      "label": "KiloClaw id:-1003812821838 topic:1",
       "provider": "telegram",
       "surface": "telegram",
       "chatType": "group",
-      "from": "telegram:group:-1003812821838:topic:1",
       "to": "telegram:-1003812821838",
       "accountId": "default",
-      "threadId": 1
+      "threadId": 1,
+      "label": "KiloClaw id:-1003812821838 topic:1",
+      "from": "telegram:group:-1003812821838:topic:1"
     },
-    "sessionFile": "/root/.openclaw/agents/kiloclaw/sessions/7e9dfb23-6d9a-4f61-ab3c-78175583da0b-topic-1.jsonl",
+    "sessionFile": "/root/.openclaw/agents/kiloclaw/sessions/5bea5721-547d-4d18-9924-738b7316ea30-topic-1.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>clawhub</name>\n    <description>Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/clawhub/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gh-issues</name>\n    <description>Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/gh-issues/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>mcporter</name>\n    <description>Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/mcporter/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>nano-banana-pro</name>\n    <description>Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/nano-banana-pro/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>notion</name>\n    <description>Notion API for creating and managing pages, databases, and blocks.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/notion/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>session-logs</name>\n    <description>Search and analyze your own session logs (older/parent conversations) using jq.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/session-logs/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>tmux</name>\n    <description>Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/tmux/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>video-frames</name>\n    <description>Extract frames or short clips from videos using ffmpeg.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/video-frames/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>omni-agent-builder</name>\n    <description>Build high-performing, secure OpenClaw agents and multi-agent teams end-to-end. Generates required OpenClaw workspace files (SOUL.md, IDENTITY.md, AGENTS.md, USER.md, TOOLS.md, HEARTBEAT.md, BOOTSTRAP.md, optional MEMORY.md + memory/YYYY-MM-DD.md). Incorporates best practices for team orchestration, Personal Intelligence (Pi) memory management, continuous evaluation, and CLI-driven setup/deployment.</description>\n    <location>~/.openclaw/workspace/skills/agent-builder/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>openclawdocs</name>\n    <description>Use when needing OpenClaw documentation expertise, including decision tree navigation, search scripts, doc fetching, version tracking, and config snippets.</description>\n    <location>~/.openclaw/workspace/skills/new-openclaw-docs/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>self-improvement</name>\n    <description>Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude (&apos;No, that&apos;s wrong...&apos;, &apos;Actually...&apos;), (3) User requests a capability that doesn&apos;t exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.</description>\n    <location>~/.openclaw/workspace/skills/self-improving-agent/SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -2267,8 +2264,8 @@
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1772698117289,
-      "sessionId": "7e9dfb23-6d9a-4f61-ab3c-78175583da0b",
+      "generatedAt": 1772713106547,
+      "sessionId": "5bea5721-547d-4d18-9924-738b7316ea30",
       "sessionKey": "agent:kiloclaw:telegram:group:-1003812821838:topic:1",
       "provider": "kilocode",
       "model": "minimax/minimax-m2.5:free",
@@ -2280,9 +2277,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 30772,
+        "chars": 31920,
         "projectContextChars": 15426,
-        "nonProjectContextChars": 15346
+        "nonProjectContextChars": 16494
       },
       "injectedWorkspaceFiles": [
         {
@@ -2412,8 +2409,8 @@
         ]
       },
       "tools": {
-        "listChars": 1702,
-        "schemaChars": 16556,
+        "listChars": 2102,
+        "schemaChars": 17711,
         "entries": [
           {
             "name": "read",
@@ -2464,6 +2461,12 @@
             "propertiesCount": 36
           },
           {
+            "name": "cron",
+            "summaryChars": 2689,
+            "schemaChars": 690,
+            "propertiesCount": 13
+          },
+          {
             "name": "message",
             "summaryChars": 132,
             "schemaChars": 4249,
@@ -2474,6 +2477,12 @@
             "summaryChars": 152,
             "schemaChars": 223,
             "propertiesCount": 2
+          },
+          {
+            "name": "gateway",
+            "summaryChars": 354,
+            "schemaChars": 465,
+            "propertiesCount": 11
           },
           {
             "name": "agents_list",
@@ -2538,11 +2547,15 @@
         ]
       }
     },
-    "inputTokens": 14728,
-    "outputTokens": 395,
-    "cacheRead": 283,
+    "inputTokens": 267,
+    "outputTokens": 121,
+    "cacheRead": 17197,
     "cacheWrite": 0,
-    "totalTokens": 15011,
-    "totalTokensFresh": true
+    "totalTokens": 17278,
+    "totalTokensFresh": true,
+    "channel": "telegram",
+    "groupId": "-1003812821838:topic:1",
+    "subject": "KiloClaw",
+    "displayName": "telegram:g-kiloclaw"
   }
 }

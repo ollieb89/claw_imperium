@@ -160,6 +160,29 @@
     "github-copilot": {
       "baseUrl": "https://api.individual.githubcopilot.com",
       "models": []
+    },
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434",
+      "api": "ollama",
+      "models": [
+        {
+          "id": "nomic-embed-text-v2-moe:latest",
+          "name": "nomic-embed-text-v2-moe:latest",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 512,
+          "maxTokens": 8192
+        }
+      ],
+      "apiKey": "ollama-local"
     }
   }
 }

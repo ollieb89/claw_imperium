@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.2",
-    "lastTouchedAt": "2026-03-05T04:17:29.269Z"
+    "lastTouchedAt": "2026-03-05T07:59:16.355Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-03T18:09:18.155Z",
@@ -22,9 +22,7 @@
   },
   "agents": {
     "defaults": {
-      "model": {
-        "primary": "kilocode/minimax/minimax-m2.5:free"
-      },
+      "model": "kilocode/minimax/minimax-m2.5:free",
       "workspace": "/root/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
@@ -38,9 +36,7 @@
       {
         "id": "kiloclaw",
         "workspace": "/root/.openclaw/workspace",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        },
+        "model": "kilocode/minimax/minimax-m2.5:free",
         "skills": [
           "1password",
           "blogwatcher",
@@ -78,27 +74,22 @@
       {
         "id": "repo-guardian",
         "workspace": "/root/.openclaw/workspace/repo-guardian",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        "model": "kilocode/minimax/minimax-m2.5:free"
       },
       {
         "id": "memory-curator",
         "workspace": "/root/.openclaw/workspace/memory-curator",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        "model": "kilocode/minimax/minimax-m2.5:free"
       },
       {
         "id": "research-scout",
         "workspace": "/root/.openclaw/workspace/research-scout",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        "model": "kilocode/minimax/minimax-m2.5:free"
       }
     ]
   },
   "tools": {
+    "profile": "full",
     "exec": {
       "host": "gateway",
       "security": "allowlist",
@@ -124,11 +115,13 @@
       "botToken": "8794998242:AAEEHXrWhg3KuxUktNRh7Z0bpBulF01dSIc",
       "groups": {
         "-1003812821838": {
-          "requireMention": false,
-          "groupPolicy": "open"
+          "requireMention": true,
+          "groupAllowFrom": [
+            123456789
+          ]
         }
       },
-      "groupPolicy": "open",
+      "groupPolicy": "allowlist",
       "streaming": "partial"
     }
   },

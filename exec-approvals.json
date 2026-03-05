@@ -9,106 +9,152 @@
     "main": {
       "allowlist": [
         {
-          "pattern": "/usr/bin/curl"
+          "pattern": "/usr/bin/curl",
+          "id": "51dde113-a4e7-4604-bf4e-9c6924536df5"
         },
         {
-          "pattern": "/usr/bin/ls"
+          "pattern": "/usr/bin/ls",
+          "id": "ae2a2239-fe73-437e-b7fd-66dd59158e36"
         },
         {
-          "pattern": "/usr/bin/mkdir"
+          "pattern": "/usr/bin/mkdir",
+          "id": "6164b034-19b5-4248-8f59-9a6ceae0e714"
         },
         {
-          "pattern": "/usr/bin/cat"
+          "pattern": "/usr/bin/cat",
+          "id": "fe015c54-d14f-4fb9-b8f2-3032574da06d"
         },
         {
-          "pattern": "/usr/bin/echo"
+          "pattern": "/usr/bin/echo",
+          "id": "e95e0467-180e-47b3-b328-960ca461e2c2"
         },
         {
-          "pattern": "/usr/bin/whoami"
+          "pattern": "/usr/bin/whoami",
+          "id": "d9a7197c-66cc-4dba-9ef0-e4611afefb37"
         },
         {
-          "pattern": "/usr/bin/which"
+          "pattern": "/usr/bin/which",
+          "id": "a529e403-8e05-4bb9-88d7-0f40b95fc051"
         },
         {
-          "pattern": "/usr/bin/stat"
+          "pattern": "/usr/bin/stat",
+          "id": "89eb70ba-af09-44a3-b32e-55c666b5b494"
         },
         {
-          "pattern": "/usr/bin/chmod"
+          "pattern": "/usr/bin/chmod",
+          "id": "fd38b4cd-8252-4619-896e-651f19db43f1"
         },
         {
-          "pattern": "/usr/bin/hostname"
+          "pattern": "/usr/bin/hostname",
+          "id": "102477e7-99fb-4992-941f-aa6dde253688"
         },
         {
-          "pattern": "/usr/bin/awk"
+          "pattern": "/usr/bin/awk",
+          "id": "86f462e9-57e3-49d0-b51b-0e5e016259ac"
         },
         {
-          "pattern": "/usr/bin/apt-get"
+          "pattern": "/usr/bin/apt-get",
+          "id": "03675e72-b7f7-46bb-90ab-f9c78dae7d6b"
         },
         {
-          "pattern": "/usr/sbin/sshd"
+          "pattern": "/usr/sbin/sshd",
+          "id": "038d1d92-8e62-4325-b844-4b864183f51d"
         },
         {
-          "pattern": "/usr/bin/pgrep"
+          "pattern": "/usr/bin/pgrep",
+          "id": "1d01abc9-3d66-4f21-b873-54965abad158"
         },
         {
-          "pattern": "/usr/bin/grep"
+          "pattern": "/usr/bin/grep",
+          "id": "0d69b365-bc35-44ad-884c-dfbb1156ba26"
         },
         {
-          "pattern": "/usr/bin/head"
+          "pattern": "/usr/bin/head",
+          "id": "dc8467fb-8026-454d-8093-49a0996f8754"
         },
         {
-          "pattern": "/usr/local/bin/npm"
+          "pattern": "/usr/local/bin/npm",
+          "id": "9fcf4717-ddc5-41be-ba23-1fbedf47785b"
         },
         {
-          "pattern": "/usr/local/bin/npx"
+          "pattern": "/usr/local/bin/npx",
+          "id": "c0a88f84-43f6-41f4-9a6e-cdf615b62e57"
         },
         {
-          "pattern": "/usr/bin/ssh"
+          "pattern": "/usr/bin/ssh",
+          "id": "86b2dfee-b34d-476d-bd0f-1233087e188b"
         },
         {
-          "pattern": "/usr/bin/date"
+          "pattern": "/usr/bin/date",
+          "id": "a6af674c-7b00-4ee2-ba2e-f7c337843be7"
         },
         {
-          "pattern": "/usr/bin/cp"
+          "pattern": "/usr/bin/cp",
+          "id": "4a138a6c-2c52-411f-8ae2-3087c292dc8d"
         },
         {
-          "pattern": "/usr/bin/pkill"
+          "pattern": "/usr/bin/pkill",
+          "id": "234b892a-30fd-4f0a-9422-ac85efeb2b08"
         },
         {
-          "pattern": "/usr/bin/rm"
+          "pattern": "/usr/bin/rm",
+          "id": "e11b3343-2553-457f-9c08-f2eb655bd52f"
         },
         {
-          "pattern": "/usr/bin/tail"
+          "pattern": "/usr/bin/tail",
+          "id": "b98493d0-155f-47ea-9a20-26b64b1e5786"
         },
         {
-          "pattern": "/usr/bin/sed"
+          "pattern": "/usr/bin/sed",
+          "id": "1559d16f-c0e0-489d-a57a-0b15039cf4cb"
         },
         {
-          "pattern": "/usr/sbin/tailscaled"
+          "pattern": "/usr/sbin/tailscaled",
+          "id": "49b55434-e207-4739-ad2d-a965b928f8ac"
         },
         {
-          "pattern": "/usr/bin/tailscale"
+          "pattern": "/usr/bin/tailscale",
+          "id": "1c15f6ee-2f63-4798-9cd6-c1ec326770eb"
         },
         {
-          "pattern": "/usr/local/bin/openclaw"
+          "pattern": "/usr/local/bin/openclaw",
+          "id": "4397f8a8-3332-4798-bc28-3887266e1225"
         },
         {
-          "pattern": "/usr/local/bin/clawhub"
+          "pattern": "/usr/local/bin/clawhub",
+          "id": "3954264f-8e45-4df8-b008-881a847f4cdc"
         },
         {
-          "pattern": "/usr/bin/python3"
+          "pattern": "/usr/bin/python3",
+          "id": "0095ba30-f26f-40fc-aae8-22a59d53dcfe"
         },
         {
-          "pattern": "/usr/bin/unzip"
+          "pattern": "/usr/bin/unzip",
+          "id": "e4567893-f71f-44db-b7aa-b134fa92b944"
         },
         {
-          "pattern": "/usr/bin/mv"
+          "pattern": "/usr/bin/mv",
+          "id": "2f87b9bb-3e96-412a-bef0-0172a56cf53f"
         },
         {
-          "pattern": "/usr/bin/find"
+          "pattern": "/usr/bin/find",
+          "id": "77cd1348-8c94-4a4a-ac5f-ae1a0b7d5d4b"
         },
         {
-          "pattern": "/usr/bin/uptime"
+          "pattern": "/usr/bin/uptime",
+          "id": "6e515bea-881c-4da4-8e9e-9c0302eca2b6"
+        },
+        {
+          "pattern": "/usr/bin/node",
+          "id": "1b2d2079-ba7f-4d6c-852a-a2e2f850afd8"
+        },
+        {
+          "pattern": "/usr/bin/id",
+          "id": "4e9bd78d-5fa4-475d-adb5-9f54188abfb9"
+        },
+        {
+          "pattern": "/usr/bin/sleep",
+          "id": "3cc58a1d-8463-4940-b204-6438f6d49e92"
         }
       ]
     },
@@ -116,83 +162,98 @@
       "allowlist": [
         {
           "pattern": "/root/.openclaw/workspace/**",
-          "allow": "always"
+          "allow": "always",
+          "id": "048bbcc2-dc2b-4b4f-95cc-cc14cdd291fd"
         },
         {
-          "pattern": "/usr/bin/python3"
+          "pattern": "/usr/bin/bash",
+          "allow": "always",
+          "id": "bash-always-001",
+          "lastUsedAt": 1772703756157,
+          "lastUsedCommand": "bash /root/.openclaw/workspace/repo-guardian/scripts/acceptance-tests.sh",
+          "lastResolvedPath": "/usr/bin/bash"
         },
         {
-          "pattern": "/usr/bin/node"
+          "pattern": "/usr/bin/rm",
+          "allow": "always",
+          "id": "rm-always-001",
+          "lastUsedAt": 1772703815409,
+          "lastUsedCommand": "rm /root/.openclaw/workspace/repo-guardian/BOOTSTRAP.md",
+          "lastResolvedPath": "/usr/bin/rm"
         },
         {
-          "pattern": "/usr/bin/ls"
+          "pattern": "/usr/bin/python3",
+          "id": "0af03e59-f50b-4b46-900d-b8d68d79a549"
         },
         {
-          "pattern": "/usr/bin/cat"
+          "pattern": "/usr/bin/node",
+          "id": "98f96592-3310-441d-ab63-18aac81b1e22"
         },
         {
-          "pattern": "/usr/bin/grep"
+          "pattern": "/usr/bin/ls",
+          "id": "db6cf812-5561-4ed7-a010-17fc7e2eab5c",
+          "lastUsedAt": 1772704075252,
+          "lastUsedCommand": "ls -lat /root/.openclaw/workspace/.learnings/ | head -15",
+          "lastResolvedPath": "/usr/bin/ls"
         },
         {
-          "pattern": "/usr/bin/echo"
+          "pattern": "/usr/bin/cat",
+          "id": "35d832d9-0d3e-484e-b54a-aa4b0d3554e4"
         },
         {
-          "pattern": "/usr/bin/date"
+          "pattern": "/usr/bin/grep",
+          "id": "54013dca-b158-4557-8625-4a91b629e8e6",
+          "lastUsedAt": 1772703768098,
+          "lastUsedCommand": "grep VALIDATOR /root/.openclaw/workspace/repo-guardian/scripts/acceptance-tests.sh",
+          "lastResolvedPath": "/usr/bin/grep"
         },
         {
-          "pattern": "/usr/bin/whoami"
+          "pattern": "/usr/bin/echo",
+          "id": "f8a22355-4f5d-44ad-bd90-3b60ce2c5a58"
         },
         {
-          "pattern": "/usr/bin/id"
+          "pattern": "/usr/bin/date",
+          "id": "c09bf723-3d09-435d-b0ae-e5cfc9cf05b6",
+          "lastUsedAt": 1772705780458,
+          "lastUsedCommand": "date -u +%Y-%m-%d",
+          "lastResolvedPath": "/usr/bin/date"
         },
         {
-          "pattern": "/usr/bin/sleep"
+          "pattern": "/usr/bin/whoami",
+          "id": "8ed1cdc9-78e6-44c0-aa42-b5b2943521cc"
         },
         {
-          "pattern": "/usr/bin/ps"
+          "pattern": "/usr/bin/id",
+          "id": "23f7b9f1-2ea7-487c-bfe5-87542e550247"
         },
         {
-          "pattern": "/usr/local/bin/openclaw"
-        }
-      ]
-    },
-    "default": {
-      "allowlist": [
-        {
-          "pattern": "/usr/bin/python3"
+          "pattern": "/usr/bin/sleep",
+          "id": "77229dd1-bf68-4b51-8836-1f954b3ea3b1"
         },
         {
-          "pattern": "/usr/bin/node"
+          "pattern": "/usr/bin/ps",
+          "id": "f6f66828-0274-4056-be2f-f3b8aadc4b10"
         },
         {
-          "pattern": "/usr/bin/ls"
+          "pattern": "/usr/local/bin/openclaw",
+          "id": "cce0d783-8b96-4c8d-b98d-912cd9ff16ca",
+          "lastUsedAt": 1772703508739,
+          "lastUsedCommand": "openclaw gateway restart",
+          "lastResolvedPath": "/usr/local/bin/openclaw"
         },
         {
-          "pattern": "/usr/bin/cat"
+          "id": "0f7e06d5-f309-4e90-ba9a-0b73278a4e3a",
+          "pattern": "/usr/bin/head",
+          "lastUsedAt": 1772704075253,
+          "lastUsedCommand": "ls -lat /root/.openclaw/workspace/.learnings/ | head -15",
+          "lastResolvedPath": "/usr/bin/ls"
         },
         {
-          "pattern": "/usr/bin/grep"
-        },
-        {
-          "pattern": "/usr/bin/head"
-        },
-        {
-          "pattern": "/usr/bin/tail"
-        },
-        {
-          "pattern": "/usr/bin/date"
-        },
-        {
-          "pattern": "/usr/bin/whoami"
-        },
-        {
-          "pattern": "/usr/bin/id"
-        },
-        {
-          "pattern": "/usr/bin/sleep"
-        },
-        {
-          "pattern": "/usr/bin/echo"
+          "id": "11005578-a65e-419e-85e2-ce03f96d9c43",
+          "pattern": "/usr/bin/rm",
+          "lastUsedAt": 1772703815409,
+          "lastUsedCommand": "rm /root/.openclaw/workspace/repo-guardian/BOOTSTRAP.md",
+          "lastResolvedPath": "/usr/bin/rm"
         }
       ]
     },
@@ -205,9 +266,5 @@
     "research-scout": {
       "allowlist": []
     }
-  },
-  "ask": "off",
-  "allowed_paths": [
-    "/root/.openclaw/workspace/"
-  ]
+  }
 }

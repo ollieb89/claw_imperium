@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.2",
-    "lastTouchedAt": "2026-03-05T07:59:16.355Z"
+    "lastTouchedAt": "2026-03-05T11:33:35.457Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-03T18:09:18.155Z",
-    "lastRunVersion": "2026.2.26",
-    "lastRunCommand": "onboard",
+    "lastRunAt": "2026-03-05T11:33:35.427Z",
+    "lastRunVersion": "2026.3.2",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -22,9 +22,7 @@
   },
   "agents": {
     "defaults": {
-      "model": {
-        "primary": "kilocode/minimax/minimax-m2.5:free"
-      },
+      "model": "kilocode/minimax/minimax-m2.5:free",
       "workspace": "/root/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
@@ -38,10 +36,7 @@
       {
         "id": "kiloclaw",
         "workspace": "/root/.openclaw/workspace",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free",
-          "fallback": "kilocodex/kimi-m2.5:free"
-        },
+        "model": "kilocode/minimax/minimax-m2.5:free",
         "skills": [
           "1password",
           "blogwatcher",
@@ -79,26 +74,62 @@
       {
         "id": "repo-guardian",
         "workspace": "/root/.openclaw/workspace/repo-guardian",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        "model": "kilocode/minimax/minimax-m2.5:free"
       },
       {
         "id": "memory-curator",
         "workspace": "/root/.openclaw/workspace/memory-curator",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        "model": "kilocode/minimax/minimax-m2.5:free"
       },
       {
         "id": "research-scout",
         "workspace": "/root/.openclaw/workspace/research-scout",
-        "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        "model": "kilocode/minimax/minimax-m2.5:free"
       }
     ]
   },
+  "bindings": [
+    {
+      "agentId": "memory-curator",
+      "match": {
+        "channel": "telegram",
+        "peer": {
+          "kind": "group",
+          "id": "-1003812821838:topic:2"
+        }
+      }
+    },
+    {
+      "agentId": "repo-guardian",
+      "match": {
+        "channel": "telegram",
+        "peer": {
+          "kind": "group",
+          "id": "-1003812821838:topic:1425"
+        }
+      }
+    },
+    {
+      "agentId": "research-scout",
+      "match": {
+        "channel": "telegram",
+        "peer": {
+          "kind": "group",
+          "id": "-1003812821838:topic:1431"
+        }
+      }
+    },
+    {
+      "agentId": "kiloclaw",
+      "match": {
+        "channel": "telegram",
+        "peer": {
+          "kind": "group",
+          "id": "-1003812821838:topic:1495"
+        }
+      }
+    }
+  ],
   "tools": {
     "profile": "full",
     "exec": {
@@ -126,11 +157,17 @@
       "botToken": "8794998242:AAEEHXrWhg3KuxUktNRh7Z0bpBulF01dSIc",
       "groups": {
         "-1003812821838": {
-          "requireMention": false,
-          "groupPolicy": "open"
+          "requireMention": true,
+          "allowFrom": [1734128684],
+          "topics": {
+            "1": {
+              "requireMention": false
+            }
+          }
         }
       },
-      "groupPolicy": "open",
+      "groupPolicy": "allowlist",
+      "allowFrom": [1734128684],
       "streaming": "partial"
     }
   },
