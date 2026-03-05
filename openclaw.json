@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.2",
-    "lastTouchedAt": "2026-03-04T19:49:05.021Z"
+    "lastTouchedAt": "2026-03-05T04:17:29.269Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-03T18:09:18.155Z",
@@ -40,7 +40,40 @@
         "workspace": "/root/.openclaw/workspace",
         "model": {
           "primary": "kilocode/minimax/minimax-m2.5:free"
-        }
+        },
+        "skills": [
+          "1password",
+          "blogwatcher",
+          "clawhub",
+          "coding-agent",
+          "gemini",
+          "gh-issues",
+          "gifgrep",
+          "healthcheck",
+          "himalaya",
+          "mcporter",
+          "model-usage",
+          "nano-banana-pro",
+          "nano-pdf",
+          "notion",
+          "obsidian",
+          "openhue",
+          "oracle",
+          "session-logs",
+          "skill-creator",
+          "spotify-player",
+          "summarize",
+          "tmux",
+          "trello",
+          "video-frames",
+          "voice-call",
+          "wacli",
+          "weather",
+          "xurl",
+          "omni-agent-builder",
+          "openclawdocs",
+          "self-improvement"
+        ]
       },
       {
         "id": "repo-guardian",
@@ -88,7 +121,7 @@
     "telegram": {
       "enabled": true,
       "dmPolicy": "pairing",
-      "botToken": "$TELEGRAM_BOT_TOKEN",
+      "botToken": "8794998242:AAEEHXrWhg3KuxUktNRh7Z0bpBulF01dSIc",
       "groups": {
         "-1003812821838": {
           "requireMention": false,
@@ -96,7 +129,7 @@
         }
       },
       "groupPolicy": "open",
-      "streaming": "off"
+      "streaming": "partial"
     }
   },
   "gateway": {
@@ -113,7 +146,7 @@
     },
     "auth": {
       "mode": "token",
-      "token": "auto"
+      "token": "$OPENCLAW_GATEWAY_TOKEN"
     },
     "tailscale": {
       "mode": "off",
@@ -156,7 +189,8 @@
         "enabled": false
       },
       "goplaces": {
-        "enabled": false
+        "enabled": true,
+        "apiKey": "$GITHUB_PAT"
       },
       "eightctl": {
         "enabled": false
@@ -187,6 +221,18 @@
       },
       "gh-issues": {
         "apiKey": "$GITHUB_PAT"
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "notion": {
+        "apiKey": "${NOTION_API_KEY}"
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-image-gen": {
+        "enabled": false
       }
     }
   },

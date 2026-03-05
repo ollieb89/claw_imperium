@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.2",
-    "lastTouchedAt": "2026-03-04T19:48:45.065Z"
+    "lastTouchedAt": "2026-03-05T04:12:42.989Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-03T18:09:18.155Z",
@@ -33,7 +33,70 @@
       "subagents": {
         "maxConcurrent": 8
       }
-    }
+    },
+    "list": [
+      {
+        "id": "kiloclaw",
+        "workspace": "/root/.openclaw/workspace",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        },
+        "skills": [
+          "1password",
+          "blogwatcher",
+          "clawhub",
+          "coding-agent",
+          "gemini",
+          "gh-issues",
+          "gifgrep",
+          "healthcheck",
+          "himalaya",
+          "mcporter",
+          "model-usage",
+          "nano-banana-pro",
+          "nano-pdf",
+          "notion",
+          "obsidian",
+          "openhue",
+          "oracle",
+          "session-logs",
+          "skill-creator",
+          "spotify-player",
+          "summarize",
+          "tmux",
+          "trello",
+          "video-frames",
+          "voice-call",
+          "wacli",
+          "weather",
+          "xurl",
+          "omni-agent-builder",
+          "openclawdocs",
+          "self-improvement"
+        ]
+      },
+      {
+        "id": "repo-guardian",
+        "workspace": "/root/.openclaw/workspace/repo-guardian",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      },
+      {
+        "id": "memory-curator",
+        "workspace": "/root/.openclaw/workspace/memory-curator",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      },
+      {
+        "id": "research-scout",
+        "workspace": "/root/.openclaw/workspace/research-scout",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      }
+    ]
   },
   "tools": {
     "exec": {
@@ -66,7 +129,7 @@
         }
       },
       "groupPolicy": "open",
-      "streaming": "off"
+      "streaming": "partial"
     }
   },
   "gateway": {
@@ -83,7 +146,7 @@
     },
     "auth": {
       "mode": "token",
-      "token": "auto"
+      "token": "$OPENCLAW_GATEWAY_TOKEN"
     },
     "tailscale": {
       "mode": "off",
@@ -126,7 +189,8 @@
         "enabled": false
       },
       "goplaces": {
-        "enabled": false
+        "enabled": true,
+        "apiKey": "$GITHUB_PAT"
       },
       "eightctl": {
         "enabled": false
@@ -141,6 +205,24 @@
         "enabled": false
       },
       "blucli": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "1password": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "apiKey": "$GITHUB_PAT"
+      },
+      "himalaya": {
         "enabled": false
       }
     }
@@ -170,7 +252,7 @@
           "observationFeed": {
             "enabled": true,
             "channel": "telegram",
-            "to": "-1003812821838"
+            "to": "$TELEGRAM_GROUP_ID"
           },
           "project": "openclaw"
         }

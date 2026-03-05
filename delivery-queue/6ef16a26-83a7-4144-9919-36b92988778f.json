@@ -21,7 +21,7 @@
     "mediaUrls": [],
     "isGroup": false
   },
-  "retryCount": 1,
-  "lastAttemptAt": 1772673349558,
+  "retryCount": 4,
+  "lastAttemptAt": 1772681760911,
   "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
 }

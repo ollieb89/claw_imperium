@@ -17,7 +17,7 @@
     "text": "✅ New session started · model: kilocode/minimax/minimax-m2.5:free",
     "mediaUrls": []
   },
-  "retryCount": 1,
-  "lastAttemptAt": 1772673079524,
+  "retryCount": 4,
+  "lastAttemptAt": 1772681759469,
   "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
 }

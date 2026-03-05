@@ -18,8 +18,8 @@
         {
           "id": "f42eb6c9-e931-4af9-bc02-6fcb60fc0d8c",
           "pattern": "/usr/bin/ls",
-          "lastUsedAt": 1772675449155,
-          "lastUsedCommand": "ls /root/.openclaw/workspace/memory/",
+          "lastUsedAt": 1772677244947,
+          "lastUsedCommand": "ls -lt /root/.openclaw/workspace/.learnings/ | head -5",
           "lastResolvedPath": "/usr/bin/ls"
         },
         {
@@ -112,8 +112,8 @@
         {
           "id": "a1a757fa-aba6-41cd-a790-40b159de68be",
           "pattern": "/usr/bin/head",
-          "lastUsedAt": 1772675458815,
-          "lastUsedCommand": "tailscale status | head -10",
+          "lastUsedAt": 1772680013065,
+          "lastUsedCommand": "tailscale status | head -8",
           "lastResolvedPath": "/usr/bin/tailscale"
         },
         {
@@ -185,8 +185,8 @@
         {
           "id": "21bdac03-6f5f-405e-a71f-fe55ed896564",
           "pattern": "/usr/bin/tailscale",
-          "lastUsedAt": 1772675458815,
-          "lastUsedCommand": "tailscale status | head -10",
+          "lastUsedAt": 1772680013065,
+          "lastUsedCommand": "tailscale status | head -8",
           "lastResolvedPath": "/usr/bin/tailscale"
         },
         {
@@ -231,6 +231,22 @@
           "id": "8a3b6ce4-177b-4c20-bfd5-15f41020373c",
           "pattern": "/usr/bin/uptime",
           "lastUsedAt": 1772666726102
+        }
+      ]
+    },
+    "kiloclaw": {
+      "allowlist": [
+        {
+          "id": "8b3d7e9c-7276-4eb2-876d-c50e6af53e47",
+          "pattern": "/usr/bin/date",
+          "lastUsedAt": 1772683584834,
+          "lastUsedCommand": "date +%Y-%m-%d",
+          "lastResolvedPath": "/usr/bin/date"
+        },
+        {
+          "id": "d86d6d23-91e2-4499-a3d3-d126370fa398",
+          "pattern": "/usr/bin/ls",
+          "lastUsedAt": 1772683463712
         }
       ]
     }

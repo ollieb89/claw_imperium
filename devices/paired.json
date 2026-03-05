@@ -40,7 +40,7 @@
     "publicKey": "j9spCwsvxSM8mhY3fkFevPXc_xWptdVi-o79jZbqSvM",
     "platform": "linux",
     "clientId": "cli",
-    "clientMode": "cli",
+    "clientMode": "probe",
     "role": "operator",
     "roles": [
       "operator"
@@ -106,7 +106,7 @@
           "operator.pairing"
         ],
         "createdAtMs": 1772641682453,
-        "lastUsedAtMs": 1772673663049
+        "lastUsedAtMs": 1772683152344
       }
     },
     "createdAtMs": 1772641682453,
@@ -142,7 +142,7 @@
           "operator.pairing"
         ],
         "createdAtMs": 1772643143952,
-        "lastUsedAtMs": 1772644117341
+        "lastUsedAtMs": 1772679969061
       }
     },
     "createdAtMs": 1772643143952,
