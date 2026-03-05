@@ -1,11 +1,17 @@
-# System files
-.clawhub/
-.openclaw/
+# secrets / credentials / device identity
+credentials/
+identity/
+devices/
+telegram/
+exec-approvals.json
+openclaw.json
+openclaw.json.bak*
 
-# Logs and Memory
-.learnings/
-memory/202*.md
+# local state / logs / db
+logs/
+memory/*.sqlite
+memory/**/*.sqlite
+update-check.json
 
-# OS files
-.DS_Store
-Thumbs.db
+# misc
+*.log
