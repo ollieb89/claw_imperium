@@ -1,0 +1,9 @@
+{
+  "name": "memory-curator",
+  "version": "1.0.0",
+  "description": "Memory curation and deduplication for OpenClaw agents",
+  "main": "SKILL.md",
+  "keywords": ["openclaw", "memory", "curator"],
+  "author": "OpenClaw",
+  "license": "MIT"
+}

@@ -192,8 +192,8 @@
         {
           "pattern": "/usr/bin/ls",
           "id": "db6cf812-5561-4ed7-a010-17fc7e2eab5c",
-          "lastUsedAt": 1772704075252,
-          "lastUsedCommand": "ls -lat /root/.openclaw/workspace/.learnings/ | head -15",
+          "lastUsedAt": 1772738916297,
+          "lastUsedCommand": "ls -lat /root/.openclaw/workspace/.learnings/ | head -20",
           "lastResolvedPath": "/usr/bin/ls"
         },
         {
@@ -244,8 +244,8 @@
         {
           "id": "0f7e06d5-f309-4e90-ba9a-0b73278a4e3a",
           "pattern": "/usr/bin/head",
-          "lastUsedAt": 1772704075253,
-          "lastUsedCommand": "ls -lat /root/.openclaw/workspace/.learnings/ | head -15",
+          "lastUsedAt": 1772738916297,
+          "lastUsedCommand": "ls -lat /root/.openclaw/workspace/.learnings/ | head -20",
           "lastResolvedPath": "/usr/bin/ls"
         },
         {

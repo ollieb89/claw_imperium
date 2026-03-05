@@ -1,4 +1,4 @@
-# [openclaw-kiloclaw] recent context, 2026-03-05 4:03pm UTC
+# [openclaw-kiloclaw] recent context, 2026-03-05 8:07pm UTC
 
 **Legend:** session-request | 🔴 bugfix | 🟣 feature | 🔄 refactor | ✅ change | 🔵 discovery | ⚖️ decision
 
@@ -14,93 +14,33 @@ When you need implementation details, rationale, or debugging context:
 - Trust this index over re-reading code for past decisions and learnings
 
 **Context Economics**:
-- Loading: 50 observations (6,982 tokens to read)
-- Work investment: 813,715 tokens spent on research, building, and decisions
-- Your savings: 806,733 tokens (99% reduction from reuse)
+- Loading: 50 observations (6,228 tokens to read)
+- Work investment: 87,184 tokens spent on research, building, and decisions
+- Your savings: 80,956 tokens (93% reduction from reuse)
 
 ### Mar 5, 2026
 
-**#S63** Run acceptance tests and report results (Mar 5, 7:44 AM)
+**#S90** Approve openclaw-control-ui label (Mar 5, 8:13 AM)
 
-**#S86** Approve openclaw-control-ui label (Mar 5, 7:45 AM)
+**#S91** Approve openclaw-control-ui label (Mar 5, 8:42 AM)
 
-**#S65** Execute Acceptance Tests and Report Results (Mar 5, 7:45 AM)
+**#S92** Approve openclaw-control-ui label (Mar 5, 8:44 AM)
 
-**#S87** Approve openclaw-control-ui configuration (Mar 5, 7:48 AM)
+**#S93** Openclaw Control UI Approval Check (Mar 5, 9:15 AM)
 
-**#S75** User Profile Image Upload Feature (Mar 5, 7:48 AM)
+**#S94** Heartbeat Check (Mar 5, 9:17 AM)
 
-**#S76** Clarification on Response Strategy (Mar 5, 8:04 AM)
+**#S95** Approve openclaw-control-ui label (Mar 5, 9:19 AM)
 
-**#S77** Investigate mem_bot approval pattern setup (Mar 5, 8:04 AM)
+**#S97** Approve openclaw-control-ui label (Mar 5, 9:44 AM)
 
-**#S67** Execute acceptance tests and handle approvals (Mar 5, 8:09 AM)
+**#S98** Openclaw Control UI Approval (Mar 5, 9:45 AM)
 
-**#S88** Approve openclaw-control-ui label (Mar 5, 8:09 AM)
-
-**General**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #3707 | 9:39 AM | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3708 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3709 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3710 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3711 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3712 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3713 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3714 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3715 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3716 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3717 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-| #3718 | " | ✅ | Deployment approval required | ~139 | 🛠️ 60,308 |
-
-**../../root/.openclaw/exec-approvals.sock**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #3834 | 9:40 AM | 🔵 | Configuration for Executable Approvals | ~193 | 🔍 6,196 |
-
-**user_routes.py**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #3792 | " | 🟣 | Implement User Profile Image Upload | ~216 | 🛠️ 1,673 |
+**#S85** User asks for priority (Mar 5, 9:45 AM)
 
 **General**
 | ID | Time | T | Title | Read | Work |
 |----|------|---|-------|------|------|
-| #3853 | " | 🔴 | Failed Edit due to Exact Text Match Requirement | ~197 | 🛠️ 7,210 |
-| #3854 | " | 🔴 | Failed Edit due to Exact Text Match Requirement | ~197 | 🛠️ 7,210 |
-| #4109 | 9:44 AM | ✅ | Approved openclaw-control-ui configuration | ~93 | 🛠️ 4,190 |
-| #4111 | 9:45 AM | ⚖️ | Approve openclaw-control-ui label | ~120 | ⚖️ 1,552 |
-| #4112 | " | ⚖️ | Approve openclaw-control-ui label | ~118 | ⚖️ 1,557 |
-| #4113 | 9:47 AM | ⚖️ | Approve openclaw-control-ui label | ~109 | ⚖️ 1,536 |
-
-**../../root/.openclaw/workspace/.learnings**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #4117 | " | 🔵 | Files from previous day in learnings directory | ~205 | 🔍 3,161 |
-
-**General**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #4118 | " | 🔵 | Approval required for operation | ~114 | 🔍 4,094 |
-| #4119 | " | 🔵 | Approval required for operation | ~114 | 🔍 4,094 |
-
-**../../root/.openclaw/workspace/.learnings**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #4115 | " | 🔵 | New files in workspace learnings directory | ~114 | 🔍 1,873 |
-
-**../../root/.openclaw/workspace/memory**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #4116 | " | 🔵 | No files found for today's date in memory directory | ~132 | 🔍 1,873 |
-
-**General**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-| #4120 | 9:48 AM | ⚖️ | Approve openclaw-control-ui label | ~115 | ⚖️ 1,566 |
-| #4121 | " | ⚖️ | Approve openclaw-control-ui label | ~109 | ⚖️ 1,537 |
-| #4122 | " | ⚖️ | Approve openclaw-control-ui deployment | ~109 | ⚖️ 1,551 |
 | #4124 | 10:16 AM | 🔵 | Current date retrieved | ~66 | 🔍 2,234 |
 
 **src/api/routes/image.routes.ts**
@@ -113,8 +53,6 @@ When you need implementation details, rationale, or debugging context:
 |----|------|---|-------|------|------|
 | #4125 | " | 🔵 | Review of HEARTBEAT.md | ~226 | 🔍 3,487 |
 | #4126 | " | 🔵 | Review of HEARTBEAT.md | ~226 | 🔍 3,487 |
-
-**#S85** User asks for priority (Mar 5, 10:16 AM)
 
 **user_routes.py**
 | ID | Time | T | Title | Read | Work |
@@ -156,52 +94,110 @@ When you need implementation details, rationale, or debugging context:
 | #4137 | 12:20 PM | ⚖️ | Approve openclaw-control-ui label | ~104 | ⚖️ 1,533 |
 | #4138 | " | ⚖️ | Approve openclaw-control-ui label | ~115 | ⚖️ 1,555 |
 | #4141 | 1:51 PM | ⚖️ | Approve openclaw-control-ui label | ~97 | ⚖️ 1,531 |
+| #4145 | 2:50 PM | ⚖️ | Approve openclaw-control-ui configuration | ~129 | ⚖️ 1,564 |
+| #4146 | 2:53 PM | ⚖️ | Openclaw Control UI Approval | ~98 | ⚖️ 1,526 |
+| #4148 | 2:55 PM | ⚖️ | Approve openclaw-control-ui label | ~122 | ⚖️ 1,560 |
+| #4149 | 3:31 PM | ⚖️ | Approve openclaw-control-ui label | ~115 | ⚖️ 1,557 |
+| #4150 | 3:34 PM | ⚖️ | Approve openclaw-control-ui label | ~102 | ⚖️ 1,557 |
+| #4151 | 4:03 PM | ⚖️ | Approve openclaw-control-ui configuration | ~101 | ⚖️ 1,527 |
+| #4152 | 4:34 PM | ⚖️ | Openclaw Control UI Approval | ~101 | ⚖️ 1,540 |
+| #4154 | 4:36 PM | ⚖️ | Approve openclaw-control-ui label | ~113 | ⚖️ 1,574 |
+| #4155 | 5:07 PM | ⚖️ | Approve openclaw-control-ui label | ~112 | ⚖️ 1,567 |
+| #4156 | 5:37 PM | ⚖️ | Approve openclaw-control-ui label | ~95 | ⚖️ 1,529 |
+| #4157 | 5:39 PM | ⚖️ | Approve openclaw-control-ui label | ~113 | ⚖️ 1,550 |
+| #4158 | 5:41 PM | ⚖️ | Approve Openclaw Control UI Configuration | ~152 | ⚖️ 1,579 |
+| #4160 | 5:43 PM | ⚖️ | Approve openclaw-control-ui label | ~107 | ⚖️ 1,536 |
 
-**#4145** 2:50 PM ⚖️ **Approve openclaw-control-ui configuration**
+**../../root/.openclaw/workspace/.learnings**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+| #4163 | " | 🔵 | Recent files in .learnings directory | ~190 | 🔍 3,131 |
+| #4161 | " | 🔵 | New files in .learnings directory | ~135 | 🔍 1,894 |
 
-The user has approved the configuration for the "openclaw-control-ui" component. This signifies that the settings and parameters associated with this UI component are now considered satisfactory and ready for further use or deployment.
+**../../root/.openclaw/workspace/memory/2026-03-05**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+| #4162 | " | 🔵 | Today's date directory check in memory | ~115 | 🔍 1,894 |
 
-Read: ~129, Work: ⚖️ 1,564
+**General**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+| #4164 | " | ⚖️ | Approve openclaw-control-ui label | ~112 | ⚖️ 1,540 |
+| #4166 | 6:15 PM | ⚖️ | Approve openclaw-control-ui component | ~116 | ⚖️ 1,558 |
+| #4168 | 6:17 PM | ⚖️ | Openclaw Control UI Approval | ~102 | ⚖️ 1,533 |
+| #4169 | 6:20 PM | ⚖️ | Approve openclaw-control-ui label | ~113 | ⚖️ 1,563 |
+| #4171 | 6:22 PM | ⚖️ | Approve openclaw-control-ui label | ~105 | ⚖️ 1,535 |
+| #4173 | 6:24 PM | ⚖️ | Openclaw Control UI Approval | ~115 | ⚖️ 1,535 |
+| #4174 | 6:54 PM | ⚖️ | Approve openclaw-control-ui label | ~102 | ⚖️ 1,531 |
+| #4175 | 7:24 PM | ⚖️ | Approve openclaw-control-ui label | ~97 | ⚖️ 1,526 |
+| #4179 | 7:26 PM | ⚖️ | Approve openclaw-control-ui label | ~113 | ⚖️ 1,554 |
+
+**../../root/.openclaw/workspace/memory**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+| #4183 | 7:28 PM | 🔵 | Files in memory directory for previous day | ~131 | 🔍 2,481 |
+
+**General**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+| #4184 | " | ✅ | Approval required for execution | ~123 | 🛠️ 3,076 |
+
+**../../root/.openclaw/workspace/.learnings**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+| #4181 | " | 🔵 | New files in learning directory | ~97 | 🔍 1,603 |
+
+**#S96** Check for new files in .learnings/ and memory/ for today's date (Mar 5, 7:28 PM)
 
 **General**
 | ID | Time | T | Title | Read | Work |
 |----|------|---|-------|------|------|
 
-**#4146** 2:53 PM ⚖️ **Openclaw Control UI Approval**
+**#4185** 7:29 PM ⚖️ **Approve openclaw-control-ui label**
 
-The "openclaw-control-ui" component, identified by its label and ID, has been approved. This signifies a readiness for further integration or deployment of this user interface component within the Openclaw system.
+The user approved the label "openclaw-control-ui" for a component identified by the same ID. This indicates a decision to proceed with or acknowledge this specific UI control element.
 
-Read: ~98, Work: ⚖️ 1,526
-
-**General**
-| ID | Time | T | Title | Read | Work |
-|----|------|---|-------|------|------|
-
-**#4148** 2:55 PM ⚖️ **Approve openclaw-control-ui label**
-
-The user approved the label "openclaw-control-ui" for the component identified by the ID "openclaw-control-ui". This action signifies a decision to proceed with or acknowledge the configuration or deployment related to this UI component.
-
-Read: ~122, Work: ⚖️ 1,560
+Read: ~99, Work: ⚖️ 1,527
 
 **General**
 | ID | Time | T | Title | Read | Work |
 |----|------|---|-------|------|------|
 
-**#4149** 3:31 PM ⚖️ **Approve openclaw-control-ui label**
+**#4186** 7:30 PM ⚖️ **Approve openclaw-control-ui label**
 
-The user approved the label "openclaw-control-ui" for an item identified by the ID "openclaw-control-ui". This indicates a decision to proceed with or acknowledge a component related to the openclaw control UI.
+The user approved the label "openclaw-control-ui" for the control UI component, with the ID also being "openclaw-control-ui". This indicates a decision to proceed with or acknowledge this specific UI component's designation.
 
-Read: ~115, Work: ⚖️ 1,557
+Read: ~109, Work: ⚖️ 1,539
 
 **General**
 | ID | Time | T | Title | Read | Work |
 |----|------|---|-------|------|------|
 
-**#4150** 3:34 PM ⚖️ **Approve openclaw-control-ui label**
+**#4187** 7:33 PM ⚖️ **Approve openclaw-control-ui label**
 
-The user approved the label "openclaw-control-ui" for the control UI component, with the ID "openclaw-control-ui". This approval was recorded on March 5, 2026.
+The user approved the label "openclaw-control-ui" for the openclaw control UI. This action signifies a go-ahead for further development or deployment related to this component.
 
-Read: ~102, Work: ⚖️ 1,557
+Read: ~93, Work: ⚖️ 1,530
+
+**General**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+
+**#4188** 8:03 PM ⚖️ **Openclaw Control UI Approval**
+
+The user has approved the "openclaw-control-ui" component. This signifies a decision to proceed with actions related to this UI, likely involving development, configuration, or deployment.
+
+Read: ~97, Work: ⚖️ 1,534
+
+**General**
+| ID | Time | T | Title | Read | Work |
+|----|------|---|-------|------|------|
+
+**#4193** 8:05 PM ⚖️ **Approve openclaw-control-ui label**
+
+The user approved the label "openclaw-control-ui" for the component with the ID "openclaw-control-ui". This signifies a decision to proceed with or acknowledge this specific UI control component.
+
+Read: ~111, Work: ⚖️ 1,552
 
 
-Access 814k tokens of past research & decisions for just 6,982t. Use the claude-mem skill to access memories by ID.
+Access 87k tokens of past research & decisions for just 6,228t. Use the claude-mem skill to access memories by ID.

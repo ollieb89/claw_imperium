@@ -79,7 +79,10 @@
       {
         "id": "memory-curator",
         "workspace": "/root/.openclaw/workspace/memory-curator",
-        "model": "kilocode/minimax/minimax-m2.5:free"
+        "model": "kilocode/minimax/minimax-m2.5:free",
+        "skills": [
+          "memory-curator"
+        ]
       },
       {
         "id": "research-scout",
@@ -90,6 +93,7 @@
   },
   "bindings": [
     {
+      "type": "acp",
       "agentId": "memory-curator",
       "match": {
         "channel": "telegram",
@@ -100,6 +104,7 @@
       }
     },
     {
+      "type": "acp",
       "agentId": "repo-guardian",
       "match": {
         "channel": "telegram",
@@ -110,6 +115,7 @@
       }
     },
     {
+      "type": "acp",
       "agentId": "research-scout",
       "match": {
         "channel": "telegram",
@@ -120,6 +126,7 @@
       }
     },
     {
+      "type": "acp",
       "agentId": "kiloclaw",
       "match": {
         "channel": "telegram",
@@ -158,7 +165,9 @@
       "groups": {
         "-1003812821838": {
           "requireMention": true,
-          "allowFrom": [1734128684],
+          "allowFrom": [
+            1734128684
+          ],
           "topics": {
             "1": {
               "requireMention": false
@@ -167,7 +176,9 @@
         }
       },
       "groupPolicy": "allowlist",
-      "allowFrom": [1734128684],
+      "allowFrom": [
+        1734128684
+      ],
       "streaming": "partial"
     }
   },
