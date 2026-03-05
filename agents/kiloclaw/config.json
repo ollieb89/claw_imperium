@@ -1,0 +1,25 @@
+{
+  "id": "kiloclaw",
+  "name": "Kilo Claw",
+  "workspace": "/root/.openclaw/workspace/",
+  "tools": {
+    "exec": {
+      "ask": "off",
+      "allowed_paths": [
+        "/root/.openclaw/workspace/"
+      ],
+      "denied_paths": [
+        "/root",
+        "/etc",
+        "/usr"
+      ]
+    }
+  },
+  "guardrails": {
+    "ask_before_destructive": false,
+    "required_files": [
+      "SOUL.md",
+      "AGENTS.md"
+    ]
+  }
+}

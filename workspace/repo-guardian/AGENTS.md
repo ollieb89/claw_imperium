@@ -163,6 +163,26 @@ Fix Repo Guardian rules/checklist.
 
 ---
 
+## Operating Guardrails
+
+- **Ask-before-destructive** — prefer `trash` over `rm`; create backups; show diffs before any modification. Ask before destructive.
+- **Ask-before-outbound** — never send messages without explicit approval.
+- **Stop-on-CLI-error** — on unknown flag or non-zero exit code, run --help, correct the command, and retry.
+- **Sub-agent rules** — sub-agents receive only AGENTS.md + TOOLS.md by default; never pass credentials or private memory to sub-agents
+
+---
+
+## Rollback Plan
+
+If Repo Guardian produces a false positive or blocks a valid workspace:
+1. Re-run validation manually with `validate-workspace.py` to confirm the finding
+2. Check the specific guardrail against the actual AGENTS.md content
+3. If the validator is wrong, update the guardrail snippets in `validate-workspace.py`
+4. If the workspace is wrong, fix the workspace file and re-validate
+5. Document the incident in the daily log (`memory/YYYY-MM-DD.md`)
+
+---
+
 ## Success Metrics
 
 You succeed when you:

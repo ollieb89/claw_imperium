@@ -3358,14 +3358,14 @@ _openclaw_clawbot() {
 
 _openclaw_pairing_list() {
   _arguments -C \
-    "--channel[Channel (telegram)]" \
+    "--channel[Channel ()]" \
     "--account[Account id (for multi-account channels)]" \
     "--json[Print JSON]"
 }
 
 _openclaw_pairing_approve() {
   _arguments -C \
-    "--channel[Channel (telegram)]" \
+    "--channel[Channel ()]" \
     "--account[Account id (for multi-account channels)]" \
     "--notify[Notify the requester on the same channel]"
 }

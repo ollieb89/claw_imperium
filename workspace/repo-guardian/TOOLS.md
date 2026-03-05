@@ -5,30 +5,34 @@
 - Workspace root: `~/.openclaw/workspace/`
 - Agent workspaces: `~/.openclaw/workspace/[agent-name]/`
 
-## CLI Aliases
+## CLI Commands
 
-- `validate-workspace [name]` — run full validation checklist
-- `check-diff [name]` — review uncommitted changes
-- `flag-secrets [path]` — scan for exposed credentials
+### Validate workspace structure & guardrails
+```bash
+python3 ~/.openclaw/workspace/skills/agent-builder/scripts/validate-workspace.py ~/.openclaw/workspace/[agent-name]
+```
+
+### Scan for exposed credentials
+```bash
+grep -rnI "api_key\|password\|token\|secret\|API_KEY\|SECRET" ~/.openclaw/workspace/[agent-name]/ --include="*.md"
+```
+
+### Check uncommitted changes
+```bash
+git -C ~/.openclaw/workspace/[agent-name] diff --stat
+```
+
+### Run acceptance tests
+```bash
+bash ~/.openclaw/workspace/repo-guardian/scripts/acceptance-tests.sh
+```
 
 ## File Paths (for reference)
 
-- OpenClaw docs: `/usr/local/lib/node_modules/openclaw/docs`
-- Skills: `/usr/local/lib/node_modules/openclaw/skills/`
+- Workspace root: `~/.openclaw/workspace/`
+- Agent workspaces: `~/.openclaw/workspace/[agent-name]/`
 - Workspace skills: `~/.openclaw/workspace/skills/`
-
-## Validation Commands
-
-```bash
-# Check workspace structure
-ls -la ~/.openclaw/workspace/[agent-name]/
-
-# Check for secrets (grep patterns)
-grep -r "api_key\|password\|token\|secret" ~/.openclaw/workspace/[agent-name]/ --include="*.md"
-
-# Git diff inspection
-cd ~/.openclaw/workspace/[agent-name] && git diff --stat
-```
+- Validator script: `~/.openclaw/workspace/skills/agent-builder/scripts/validate-workspace.py`
 
 ---
 

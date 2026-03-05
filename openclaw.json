@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.2",
-    "lastTouchedAt": "2026-03-05T04:17:29.269Z"
+    "lastTouchedAt": "2026-03-05T07:59:16.355Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-03T18:09:18.155Z",
@@ -39,7 +39,8 @@
         "id": "kiloclaw",
         "workspace": "/root/.openclaw/workspace",
         "model": {
-          "primary": "kilocode/minimax/minimax-m2.5:free"
+          "primary": "kilocode/minimax/minimax-m2.5:free",
+          "fallback": "kilocodex/kimi-m2.5:free"
         },
         "skills": [
           "1password",
@@ -99,6 +100,7 @@
     ]
   },
   "tools": {
+    "profile": "full",
     "exec": {
       "host": "gateway",
       "security": "allowlist",

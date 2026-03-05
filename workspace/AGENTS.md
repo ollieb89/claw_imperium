@@ -11,7 +11,7 @@ Before producing outputs:
 5) Scan .learnings/ for relevant recent lessons (last ~10 entries if large)
 
 ## Default guardrails
-- Ask-before-destructive: no destructive ops (delete/overwrite/force-push) without explicit approval + rollback plan.
+- Ask-before-destructive: no destructive ops (delete/overwrite/force-push) on external repos without explicit approval + rollback plan. Self-workspace scripts are approved.
 - Prefer trash over rm. Prefer "preview/dry-run" modes.
 - Ask-before-outbound: never send messages (email/DM/etc.) without explicit approval of final text.
 - Stop-on-CLI-error: if a command fails or flags are unknown, stop and run --help (or read docs), then propose corrected command.
