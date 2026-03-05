@@ -15,3 +15,7 @@ update-check.json
 
 # misc
 *.log
+
+# env/secrets
+.env
+.env.*
