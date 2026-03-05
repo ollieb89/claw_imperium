@@ -1,0 +1,27 @@
+{
+  "id": "78bd2497-d821-4188-9cc9-391f07f004db",
+  "enqueuedAt": 1772673349338,
+  "channel": "telegram",
+  "to": "telegram:1734128684",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "I see `openclaw.json` doesn't have an explicit agents registry—the agents appear to be workspace directories. Let me check if there's a CLI command to register agents:",
+      "replyToTag": false,
+      "replyToCurrent": false,
+      "audioAsVoice": false
+    }
+  ],
+  "threadId": null,
+  "replyToId": null,
+  "mirror": {
+    "sessionKey": "agent:main:telegram:direct:1734128684",
+    "agentId": "main",
+    "text": "I see `openclaw.json` doesn't have an explicit agents registry—the agents appear to be workspace directories. Let me check if there's a CLI command to register agents:",
+    "mediaUrls": [],
+    "isGroup": false
+  },
+  "retryCount": 1,
+  "lastAttemptAt": 1772673349446,
+  "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
+}

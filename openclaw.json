@@ -33,7 +33,37 @@
       "subagents": {
         "maxConcurrent": 8
       }
-    }
+    },
+    "list": [
+      {
+        "id": "kiloclaw",
+        "workspace": "/root/.openclaw/workspace",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      },
+      {
+        "id": "repo-guardian",
+        "workspace": "/root/.openclaw/workspace/repo-guardian",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      },
+      {
+        "id": "memory-curator",
+        "workspace": "/root/.openclaw/workspace/memory-curator",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      },
+      {
+        "id": "research-scout",
+        "workspace": "/root/.openclaw/workspace/research-scout",
+        "model": {
+          "primary": "kilocode/minimax/minimax-m2.5:free"
+        }
+      }
+    ]
   },
   "tools": {
     "exec": {

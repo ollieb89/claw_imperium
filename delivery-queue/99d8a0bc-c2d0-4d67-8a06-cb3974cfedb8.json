@@ -1,0 +1,28 @@
+{
+  "id": "99d8a0bc-c2d0-4d67-8a06-cb3974cfedb8",
+  "enqueuedAt": 1772673349562,
+  "channel": "telegram",
+  "to": "telegram:1734128684",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "⚠️ 📝 Edit: `in ~/.openclaw/openclaw.json (363 chars)` failed",
+      "isError": true,
+      "replyToTag": false,
+      "replyToCurrent": false,
+      "audioAsVoice": false
+    }
+  ],
+  "threadId": null,
+  "replyToId": null,
+  "mirror": {
+    "sessionKey": "agent:main:telegram:direct:1734128684",
+    "agentId": "main",
+    "text": "⚠️ 📝 Edit: `in ~/.openclaw/openclaw.json (363 chars)` failed",
+    "mediaUrls": [],
+    "isGroup": false
+  },
+  "retryCount": 1,
+  "lastAttemptAt": 1772673349693,
+  "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
+}

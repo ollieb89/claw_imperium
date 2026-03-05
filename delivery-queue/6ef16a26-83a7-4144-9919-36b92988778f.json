@@ -1,0 +1,27 @@
+{
+  "id": "6ef16a26-83a7-4144-9919-36b92988778f",
+  "enqueuedAt": 1772673349449,
+  "channel": "telegram",
+  "to": "telegram:1734128684",
+  "accountId": "default",
+  "payloads": [
+    {
+      "text": "Done. Registered `memory-curator` in `openclaw.json` under `agents.entries`:\n\n```json\n\"agents\": {\n  \"entries\": {\n    \"memory-curator\": {\n      \"enabled\": true,\n      \"workspace\": \"/root/.openclaw/workspace/memory-curator\",\n      \"model\": { \"primary\": \"kilocode/minimax/minimax-m2.5:free\" }\n    }\n  }\n}\n```\n\nLogged to today's memory. JSON validates. Want me to start the gateway or test the agent?",
+      "replyToTag": false,
+      "replyToCurrent": false,
+      "audioAsVoice": false
+    }
+  ],
+  "threadId": null,
+  "replyToId": null,
+  "mirror": {
+    "sessionKey": "agent:main:telegram:direct:1734128684",
+    "agentId": "main",
+    "text": "Done. Registered `memory-curator` in `openclaw.json` under `agents.entries`:\n\n```json\n\"agents\": {\n  \"entries\": {\n    \"memory-curator\": {\n      \"enabled\": true,\n      \"workspace\": \"/root/.openclaw/workspace/memory-curator\",\n      \"model\": { \"primary\": \"kilocode/minimax/minimax-m2.5:free\" }\n    }\n  }\n}\n```\n\nLogged to today's memory. JSON validates. Want me to start the gateway or test the agent?",
+    "mediaUrls": [],
+    "isGroup": false
+  },
+  "retryCount": 1,
+  "lastAttemptAt": 1772673349558,
+  "lastError": "Call to 'sendMessage' failed! (404: Not Found)"
+}

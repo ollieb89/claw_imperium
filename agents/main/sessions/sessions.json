@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "6ae42090-cdae-4a5c-981b-1df471a0f55d",
-    "updatedAt": 1772670647374,
+    "updatedAt": 1772675470120,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -162,7 +162,7 @@
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1772670628264,
+      "generatedAt": 1772675427975,
       "sessionId": "6ae42090-cdae-4a5c-981b-1df471a0f55d",
       "sessionKey": "agent:main:main",
       "provider": "kilocode",
@@ -175,17 +175,17 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 30826,
-        "projectContextChars": 17452,
-        "nonProjectContextChars": 13374
+        "chars": 32004,
+        "projectContextChars": 18343,
+        "nonProjectContextChars": 13661
       },
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
           "path": "/root/.openclaw/workspace/AGENTS.md",
           "missing": false,
-          "rawChars": 3730,
-          "injectedChars": 3730,
+          "rawChars": 4248,
+          "injectedChars": 4248,
           "truncated": false
         },
         {
@@ -240,8 +240,8 @@
           "name": "MEMORY.md",
           "path": "/root/.openclaw/workspace/MEMORY.md",
           "missing": false,
-          "rawChars": 9581,
-          "injectedChars": 9581,
+          "rawChars": 9954,
+          "injectedChars": 9954,
           "truncated": false
         }
       ],
@@ -415,18 +415,18 @@
         ]
       }
     },
-    "inputTokens": 69188,
-    "outputTokens": 249,
-    "cacheRead": 70206,
+    "inputTokens": 71285,
+    "outputTokens": 661,
+    "cacheRead": 72059,
     "cacheWrite": 0,
     "totalTokensFresh": true,
-    "totalTokens": 70269,
+    "totalTokens": 72249,
     "deliveryContext": {
       "to": "heartbeat"
     },
     "lastTo": "heartbeat"
   },
-  "telegram:slash:1734128684": {
+  "agent:main:telegram:slash:1734128684": {
     "origin": {
       "label": "ollie",
       "provider": "telegram",
@@ -440,8 +440,8 @@
     "updatedAt": 1772651379001
   },
   "agent:main:telegram:direct:1734128684": {
-    "sessionId": "997f264d-ae39-4cc5-af43-d4ed0c30c030",
-    "updatedAt": 1772667708659,
+    "sessionId": "5f1b528a-5d59-4419-aa51-90aa5eab2418",
+    "updatedAt": 1772673349007,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -455,15 +455,13 @@
     "lastAccountId": "default",
     "origin": {
       "provider": "telegram",
-      "surface": "telegram",
+      "surface": "webchat",
       "chatType": "direct",
       "to": "telegram:1734128684",
-      "accountId": "default",
-      "label": "telegram:1734128684",
-      "from": "telegram:1734128684"
+      "accountId": "default"
     },
-    "sessionFile": "/root/.openclaw/agents/main/sessions/997f264d-ae39-4cc5-af43-d4ed0c30c030.jsonl",
-    "compactionCount": 1,
+    "sessionFile": "/root/.openclaw/agents/main/sessions/5f1b528a-5d59-4419-aa51-90aa5eab2418.jsonl",
+    "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>clawhub</name>\n    <description>Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/clawhub/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gh-issues</name>\n    <description>Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/gh-issues/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>github</name>\n    <description>GitHub operations via `gh` CLI: issues, PRs, CI runs, code review, API queries. Use when: (1) checking PR status or CI, (2) creating/commenting on issues, (3) listing/filtering PRs or issues, (4) viewing run logs. NOT for: complex web UI interactions requiring manual browser flows (use browser tooling when available), bulk operations across many repos (script with gh api), or when gh auth is not configured.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/github/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>mcporter</name>\n    <description>Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/mcporter/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>session-logs</name>\n    <description>Search and analyze your own session logs (older/parent conversations) using jq.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/session-logs/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>tmux</name>\n    <description>Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/tmux/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>video-frames</name>\n    <description>Extract frames or short clips from videos using ffmpeg.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/video-frames/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>/usr/local/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>omni-agent-builder</name>\n    <description>Build high-performing, secure OpenClaw agents and multi-agent teams end-to-end. Generates required OpenClaw workspace files (SOUL.md, IDENTITY.md, AGENTS.md, USER.md, TOOLS.md, HEARTBEAT.md, BOOTSTRAP.md, optional MEMORY.md + memory/YYYY-MM-DD.md). Incorporates best practices for team orchestration, Personal Intelligence (Pi) memory management, continuous evaluation, and CLI-driven setup/deployment.</description>\n    <location>~/.openclaw/workspace/skills/agent-builder/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>openclawdocs</name>\n    <description>Use when needing OpenClaw documentation expertise, including decision tree navigation, search scripts, doc fetching, version tracking, and config snippets.</description>\n    <location>~/.openclaw/workspace/skills/new-openclaw-docs/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>self-improvement</name>\n    <description>Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude (&apos;No, that&apos;s wrong...&apos;, &apos;Actually...&apos;), (3) User requests a capability that doesn&apos;t exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.</description>\n    <location>~/.openclaw/workspace/skills/self-improving-agent/SKILL.md</location>\n  </skill>\n</available_skills>",
       "skills": [
@@ -626,14 +624,14 @@
     },
     "authProfileOverride": "kilocode:default",
     "authProfileOverrideSource": "auto",
-    "authProfileOverrideCompactionCount": 1,
+    "authProfileOverrideCompactionCount": 0,
     "modelProvider": "kilocode",
     "model": "minimax/minimax-m2.5:free",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1772667678567,
-      "sessionId": "997f264d-ae39-4cc5-af43-d4ed0c30c030",
+      "generatedAt": 1772673111330,
+      "sessionId": "5f1b528a-5d59-4419-aa51-90aa5eab2418",
       "sessionKey": "agent:main:telegram:direct:1734128684",
       "provider": "kilocode",
       "model": "minimax/minimax-m2.5:free",
@@ -645,17 +643,17 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 31553,
-        "projectContextChars": 16571,
-        "nonProjectContextChars": 14982
+        "chars": 33339,
+        "projectContextChars": 18369,
+        "nonProjectContextChars": 14970
       },
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
           "path": "/root/.openclaw/workspace/AGENTS.md",
           "missing": false,
-          "rawChars": 3730,
-          "injectedChars": 3730,
+          "rawChars": 4248,
+          "injectedChars": 4248,
           "truncated": false
         },
         {
@@ -710,8 +708,8 @@
           "name": "MEMORY.md",
           "path": "/root/.openclaw/workspace/MEMORY.md",
           "missing": false,
-          "rawChars": 8700,
-          "injectedChars": 8700,
+          "rawChars": 9980,
+          "injectedChars": 9980,
           "truncated": false
         }
       ],
@@ -893,12 +891,12 @@
         ]
       }
     },
-    "totalTokens": 42108,
-    "totalTokensFresh": true,
-    "inputTokens": 611,
-    "outputTokens": 456,
-    "cacheRead": 42004,
-    "cacheWrite": 0
+    "inputTokens": 30835,
+    "outputTokens": 4741,
+    "cacheRead": 24569,
+    "cacheWrite": 0,
+    "totalTokens": 24784,
+    "totalTokensFresh": true
   },
   "agent:main:telegram:group:-1003812821838:topic:1": {
     "chatType": "group",
@@ -1337,5 +1335,25 @@
     "cacheWrite": 0,
     "totalTokens": 15938,
     "totalTokensFresh": true
+  },
+  "agent:main:telegram:group:@heartbeat": {
+    "chatType": "group",
+    "channel": "telegram",
+    "groupId": "@heartbeat",
+    "displayName": "telegram:@heartbeat",
+    "origin": {
+      "label": "telegram:group:@heartbeat",
+      "provider": "telegram",
+      "surface": "telegram",
+      "chatType": "group",
+      "from": "telegram:group:@heartbeat",
+      "to": "telegram:@heartbeat"
+    },
+    "sessionId": "732ad27f-40e3-42f1-b49a-72be4f8f76eb",
+    "updatedAt": 1772675465719,
+    "deliveryContext": {
+      "channel": "telegram"
+    },
+    "lastChannel": "telegram"
   }
 }
