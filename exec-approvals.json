@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/root/.openclaw/exec-approvals.sock",
+    "token": "H9y2RQTRFwd3ibyP0QtVLqX28n8L995x"
+  },
+  "defaults": {},
+  "agents": {
+    "main": {
+      "allowlist": [
+        {
+          "id": "2528286a-a226-47e1-a14e-f3ece54e76d4",
+          "pattern": "/usr/bin/curl",
+          "lastUsedAt": 1772642807046,
+          "lastUsedCommand": "which tailscale || curl -fsSL https://tailscale.com/install.sh | sh",
+          "lastResolvedPath": "/usr/bin/which"
+        },
+        {
+          "id": "f42eb6c9-e931-4af9-bc02-6fcb60fc0d8c",
+          "pattern": "/usr/bin/ls",
+          "lastUsedAt": 1772667022891,
+          "lastUsedCommand": "ls /root/.openclaw/workspace/.learnings/",
+          "lastResolvedPath": "/usr/bin/ls"
+        },
+        {
+          "id": "1fc6e947-99fa-425f-8e42-b03b3c3eddd4",
+          "pattern": "/usr/bin/mkdir",
+          "lastUsedAt": 1772664651625,
+          "lastUsedCommand": "mkdir -p /root/.openclaw/workspace/memory-curator",
+          "lastResolvedPath": "/usr/bin/mkdir"
+        },
+        {
+          "id": "f971c30a-f20f-42b3-88d5-8a3130326abf",
+          "pattern": "/usr/bin/cat",
+          "lastUsedAt": 1772666645888,
+          "lastUsedCommand": "cat /root/.openclaw/workspace/.learnings/*.md",
+          "lastResolvedPath": "/usr/bin/cat"
+        },
+        {
+          "id": "51a20388-dbf8-4281-b054-a11c48ba83da",
+          "pattern": "/usr/bin/echo",
+          "lastUsedAt": 1772642834568,
+          "lastUsedCommand": "echo \"test\"",
+          "lastResolvedPath": "/usr/bin/echo"
+        },
+        {
+          "id": "d2940992-d5cd-4a1b-ae8f-578d0e827096",
+          "pattern": "/usr/bin/whoami",
+          "lastUsedAt": 1772632430960
+        },
+        {
+          "id": "883ea2ea-06af-4607-ad60-a904f9eca43d",
+          "pattern": "/usr/bin/which",
+          "lastUsedAt": 1772642807045,
+          "lastUsedCommand": "which tailscale || curl -fsSL https://tailscale.com/install.sh | sh",
+          "lastResolvedPath": "/usr/bin/which"
+        },
+        {
+          "id": "d8ede334-0344-4e74-aeb2-a260db184af7",
+          "pattern": "/usr/bin/stat",
+          "lastUsedAt": 1772632571047
+        },
+        {
+          "id": "5f7e8690-e768-4432-b677-36a4b772a2ac",
+          "pattern": "/usr/bin/chmod",
+          "lastUsedAt": 1772632579108,
+          "lastUsedCommand": "chmod 600 /root/.ssh/authorized_keys",
+          "lastResolvedPath": "/usr/bin/chmod"
+        },
+        {
+          "id": "5221ab01-a89c-45d4-acd0-b73ee5ee5624",
+          "pattern": "/usr/bin/hostname",
+          "lastUsedAt": 1772633000588,
+          "lastUsedCommand": "hostname",
+          "lastResolvedPath": "/usr/bin/hostname"
+        },
+        {
+          "id": "922a8f5b-c4fd-4272-b1f7-12b936f78fde",
+          "pattern": "/usr/bin/awk",
+          "lastUsedAt": 1772632745926,
+          "lastUsedCommand": "hostname -I | awk '{print $1}'",
+          "lastResolvedPath": "/usr/bin/hostname"
+        },
+        {
+          "id": "07b3750e-df16-4f66-beb3-7ba096c6a4d3",
+          "pattern": "/usr/bin/apt-get",
+          "lastUsedAt": 1772642808353,
+          "lastUsedCommand": "apt-get update && apt-get install -y tailscale",
+          "lastResolvedPath": "/usr/bin/apt-get"
+        },
+        {
+          "id": "08318cd1-efb2-4606-b331-f5fed59c72a9",
+          "pattern": "/usr/sbin/sshd",
+          "lastUsedAt": 1772635495273,
+          "lastUsedCommand": "pkill sshd; /usr/sbin/sshd",
+          "lastResolvedPath": "/usr/bin/pkill"
+        },
+        {
+          "id": "75a03fdd-d3cc-42a5-a988-7e225130ff89",
+          "pattern": "/usr/bin/pgrep",
+          "lastUsedAt": 1772657374450,
+          "lastUsedCommand": "pgrep sshd",
+          "lastResolvedPath": "/usr/bin/pgrep"
+        },
+        {
+          "id": "327bd0af-1082-4bde-8d3c-35501f7dc407",
+          "pattern": "/usr/bin/grep",
+          "lastUsedAt": 1772635453225,
+          "lastUsedCommand": "grep -E \"^(Pubkey|Password|PermitRoot)\" /etc/ssh/sshd_config",
+          "lastResolvedPath": "/usr/bin/grep"
+        },
+        {
+          "id": "a1a757fa-aba6-41cd-a790-40b159de68be",
+          "pattern": "/usr/bin/head",
+          "lastUsedAt": 1772666628844,
+          "lastUsedCommand": "tailscale status --json | head -5",
+          "lastResolvedPath": "/usr/bin/tailscale"
+        },
+        {
+          "id": "4a6c3f0a-b1ee-4f37-8338-4ac1ef8edf5b",
+          "pattern": "/usr/local/bin/npm",
+          "lastUsedAt": 1772633330323
+        },
+        {
+          "id": "e701f4db-d77f-4009-8ac2-3e99756e364e",
+          "pattern": "/usr/local/bin/npx",
+          "lastUsedAt": 1772634765353,
+          "lastUsedCommand": "npx -y localtunnel --port 22",
+          "lastResolvedPath": "/usr/local/bin/npx"
+        },
+        {
+          "id": "63523039-d20d-49ca-8be1-377e4d6d45dc",
+          "pattern": "/usr/bin/ssh",
+          "lastUsedAt": 1772638733949,
+          "lastUsedCommand": "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -R openclaw:22:localhost:22 serveo.net",
+          "lastResolvedPath": "/usr/bin/ssh"
+        },
+        {
+          "id": "09636c7c-ed13-417e-896c-0b184a543282",
+          "pattern": "/usr/bin/date",
+          "lastUsedAt": 1772667045325,
+          "lastUsedCommand": "date",
+          "lastResolvedPath": "/usr/bin/date"
+        },
+        {
+          "id": "2675efbf-66f1-403f-ae31-aece7f051527",
+          "pattern": "/usr/bin/cp",
+          "lastUsedAt": 1772655478878,
+          "lastUsedCommand": "cp -f ~/.openclaw/workspace/omni-agent-builder/SKILL.md ~/.openclaw/workspace/skills/agent-builder/",
+          "lastResolvedPath": "/usr/bin/cp"
+        },
+        {
+          "id": "fcc192ee-9dc5-4d03-a773-b10b271e60a1",
+          "pattern": "/usr/bin/pkill",
+          "lastUsedAt": 1772635495273,
+          "lastUsedCommand": "pkill sshd; /usr/sbin/sshd",
+          "lastResolvedPath": "/usr/bin/pkill"
+        },
+        {
+          "id": "fc514c19-5687-4a93-8941-c67cca0d28a8",
+          "pattern": "/usr/bin/rm",
+          "lastUsedAt": 1772661927830,
+          "lastUsedCommand": "rm -rf /root/.openclaw/workspace/test-missing-soul /root/.openclaw/workspace/test-guardrail-diff /root/.openclaw/workspace/test-no-acceptance-tests /root/.openclaw/workspace/test-credential-exposure",
+          "lastResolvedPath": "/usr/bin/rm"
+        },
+        {
+          "id": "e0c75bc1-f1df-4d75-b0be-e26e08a960c8",
+          "pattern": "/usr/bin/tail",
+          "lastUsedAt": 1772666644044,
+          "lastUsedCommand": "ls -la /root/.openclaw/workspace/.learnings/ | tail -10",
+          "lastResolvedPath": "/usr/bin/ls"
+        },
+        {
+          "id": "b30a27ef-53ef-40a9-8f1d-df17ffd2efde",
+          "pattern": "/usr/bin/sed",
+          "lastUsedAt": 1772635485405,
+          "lastUsedCommand": "sed -i '/^-e $/d' /etc/ssh/sshd_config",
+          "lastResolvedPath": "/usr/bin/sed"
+        },
+        {
+          "id": "08a52892-0fb9-4a08-b524-04b328c80b4d",
+          "pattern": "/usr/sbin/tailscaled",
+          "lastUsedAt": 1772642827382
+        },
+        {
+          "id": "21bdac03-6f5f-405e-a71f-fe55ed896564",
+          "pattern": "/usr/bin/tailscale",
+          "lastUsedAt": 1772670642143,
+          "lastUsedCommand": "tailscale ip -4",
+          "lastResolvedPath": "/usr/bin/tailscale"
+        },
+        {
+          "id": "01394bf1-e457-43c1-ab2a-893a83d75b2b",
+          "pattern": "/usr/local/bin/openclaw",
+          "lastUsedAt": 1772652731027,
+          "lastUsedCommand": "openclaw gateway",
+          "lastResolvedPath": "/usr/local/bin/openclaw"
+        },
+        {
+          "id": "8e010851-2386-4ce7-87a2-37a6323944ab",
+          "pattern": "/usr/local/bin/clawhub",
+          "lastUsedAt": 1772655166128,
+          "lastUsedCommand": "clawhub install self-improving-agent",
+          "lastResolvedPath": "/usr/local/bin/clawhub"
+        },
+        {
+          "id": "53f1a834-24e8-4233-ab30-5bf0fbcf02cf",
+          "pattern": "/usr/bin/python3",
+          "lastUsedAt": 1772655442589
+        },
+        {
+          "id": "b9f54bac-c3b1-415f-8832-6c1226a2ace5",
+          "pattern": "/usr/bin/unzip",
+          "lastUsedAt": 1772655463947,
+          "lastUsedCommand": "unzip -o /tmp/omni-agent-builder.zip -d /root/.openclaw/workspace/omni-agent-builder",
+          "lastResolvedPath": "/usr/bin/unzip"
+        },
+        {
+          "id": "65cdf223-c342-48d6-95f4-a76e0d05a577",
+          "pattern": "/usr/bin/mv",
+          "lastUsedAt": 1772655478278
+        },
+        {
+          "id": "13cc0711-1c00-492a-a89f-8bb957718fb1",
+          "pattern": "/usr/bin/find",
+          "lastUsedAt": 1772666929513,
+          "lastUsedCommand": "find /root/.openclaw/workspace/.learnings -name \"*.md\" -exec cat {} \\;",
+          "lastResolvedPath": "/usr/bin/find"
+        },
+        {
+          "id": "8a3b6ce4-177b-4c20-bfd5-15f41020373c",
+          "pattern": "/usr/bin/uptime",
+          "lastUsedAt": 1772666726102
+        }
+      ]
+    }
+  }
+}

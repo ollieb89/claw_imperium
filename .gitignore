@@ -1,0 +1,11 @@
+# System files
+.clawhub/
+.openclaw/
+
+# Logs and Memory
+.learnings/
+memory/202*.md
+
+# OS files
+.DS_Store
+Thumbs.db

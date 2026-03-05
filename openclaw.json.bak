@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.2",
+    "lastTouchedAt": "2026-03-04T19:48:51.446Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-03T18:09:18.155Z",
+    "lastRunVersion": "2026.2.26",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "kilocode:default": {
+        "provider": "kilocode",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "kilocode/minimax/minimax-m2.5:free"
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "tools": {
+    "exec": {
+      "host": "gateway",
+      "security": "allowlist",
+      "ask": "on-miss"
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "8794998242:AAEEHXrWhg3KuxUktNRh7Z0bpBulF01dSIc",
+      "groups": {
+        "-1003812821838": {
+          "requireMention": false,
+          "groupPolicy": "open"
+        }
+      },
+      "groupPolicy": "open",
+      "streaming": "off"
+    }
+  },
+  "gateway": {
+    "port": 3001,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "allowedOrigins": [
+        "https://claw.kilosessions.ai",
+        "https://kilo.ai",
+        "https://www.kilo.ai"
+      ],
+      "allowInsecureAuth": false
+    },
+    "auth": {
+      "mode": "token",
+      "token": "auto"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "entries": {
+      "things-mac": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "bluebubbles": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "1password": {
+        "enabled": false
+      }
+    }
+  },
+  "plugins": {
+    "enabled": true,
+    "allow": [
+      "claude-mem",
+      "telegram"
+    ],
+    "slots": {
+      "memory": "claude-mem"
+    },
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "memory-core": {
+        "enabled": false
+      },
+      "memory-lancedb": {
+        "enabled": false
+      },
+      "claude-mem": {
+        "enabled": true,
+        "config": {
+          "observationFeed": {
+            "enabled": true,
+            "channel": "telegram",
+            "to": "-1003812821838"
+          },
+          "project": "openclaw"
+        }
+      }
+    },
+    "installs": {
+      "claude-mem": {
+        "source": "path",
+        "sourcePath": "/tmp/tmp.5iP4Vtr4VW/claude-mem-installable",
+        "installPath": "/root/.openclaw/extensions/claude-mem",
+        "version": "1.0.0",
+        "installedAt": "2026-03-04T17:45:30.889Z"
+      }
+    }
+  }
+}
